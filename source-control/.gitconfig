@@ -1,0 +1,28 @@
+[core]
+	autocrlf = true
+	excludesfile = ~/.gitignore
+[push]
+	default = simple
+[alias]
+	amend = commit --amend -C HEAD
+	aa = add .
+	ba = branch --all
+	br = branch
+	ci = commit
+	cm = commit -m
+	co = checkout
+	cob = checkout -b
+	d = branch -D
+	dc = diff --cached
+	hist = log --graph --pretty=format:'%h %ad | %s%d [%an]' --date=short
+	last = log -1 HEAD
+	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr, %cn)%Creset' --abbrev-commit --date=relative
+	puff = pull --ff --ff-only
+  st = status
+	unstage = reset HEAD --
+[fetch]
+	prune = true
+[mergetool]
+	keepBackup = false
+[branch "master"]
+    mergeoptions = --no-ff
