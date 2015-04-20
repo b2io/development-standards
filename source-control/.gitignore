@@ -1,2 +1,50 @@
+# Merge files
 *.orig
-*.idea
+
+# Office temporary files.
+~$*
+
+# NPM debugging log files.
+npm-debug.log
+
+# JetBrains editor files.
+/**/.idea
+
+# Visual Studio
+## Editor files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+## ReSharper is a .NET coding add-in
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+## Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+
+## MSTest test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+## NuGet Packages
+*.nupkg
+### The packages folder can be ignored because of Package Restore
+**/packages/*
+### except build/, which is used as an MSBuild target.
+!**/packages/build/
+
+# SQL Server files
+*.mdf
+*.ldf
