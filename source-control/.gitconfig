@@ -4,22 +4,25 @@
 [push]
 	default = simple
 [alias]
-	amend = commit --amend -C HEAD
-	aa = add .
-	ba = branch --all
-	br = branch
-	ci = commit
-	cm = commit -m
-	co = checkout
-	cob = checkout -b
-	d = branch -D
-	dc = diff --cached
+	amend = commit --amend -C HEAD			# Amend the previous commit message
+	aa = add . 					# Add all
+	ba = branch --all				# Show all local and remote branches
+	br = branch       				# Show all local branches
+	ci = commit 					# commit
+	cm = commit -m 					# Commit with message
+	co = checkout 					# checkout
+	cob = checkout -b 				# Create new branch and checkout
+	d = branch -D 					# Hard delete branch
+	dc = diff --cached 				# List changes with cached remote
 	hist = log --graph --pretty=format:'%h %ad | %s%d [%an]' --date=short
-	last = log -1 HEAD
+							# Commit history with dates
+	last = log -1 HEAD				# Display log for last commit
 	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr, %cn)%Creset' --abbrev-commit --date=relative
-	puff = pull --ff --ff-only
-  st = status
-	unstage = reset HEAD --
+							# More succinct log
+	puff = pull --ff --ff-only			# To be used instead of `pull` to avoid the creation of a merge branch on `pull`
+  	s = status					# status
+  	st = status					# status
+	unstage = reset HEAD --				# Unstages changes
 [fetch]
 	prune = true
 [mergetool]
