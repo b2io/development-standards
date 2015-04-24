@@ -3,15 +3,15 @@ Source code is stored on [Github](https://github.com/b2io/) using the [Git](http
 ## Table of Contents
   1. [Config](#config)
        1. [Clients](#clients)
-       1. [Mergetools](#Mergetools)
-       1. [Aliases](#Aliases)
+       1. [Mergetools](#mergetools)
+       1. [Aliases](#aliases)
   1. [File to Ignore](#files-to-ignore)
   1. [Workflow](#workflow)
   1. [Commit Message Convention](#commit-message-convention)
 
 
 ## Config
-The [`.gitconfig`](/source-control/.gitconfig) serves as a global configuration for git across a single machine. It includes configurations for the git user, command line aliases, and mergetool(s).
+The [`.gitconfig`](/source-control/.gitconfig) serves as a global configuration for git across a single machine. It includes configurations for the git user, command line aliases, and mergetool(s). In Windows this file is located in the `C:\Users\<username>` directory.
 
 ### Clients
  * Command line - The majority of the team uses command line exclusively.
@@ -22,23 +22,10 @@ The [`.gitconfig`](/source-control/.gitconfig) serves as a global configuration 
  * [P4Merge](http://www.perforce.com/product/components/perforce-visual-merge-and-diff-tools)
 
 ### Aliases
- * `amend` - Allows for the modification of the most recent commit
- * `aa = add .`
- * `ba = branch --all`
- * `br = branch`
- * `ci = commit` - Commit via vi
- * `cm = commit -m` - Commit with message
- * `co = checkout`
- * `cob = checkout -b` - Create a new branch and checkout
- * `d = branch -D` - Hard delete branch
- * `dc = diff --cached`
- * `hist` - Commit history with dates
- * `last = log -1 HEAD` - Display log for last commit
- * `lg` - More succinct log
- * `puff = pull --ff --ff-only` - To be used instead of `pull` to avoid the creation of a merge branch on `pull`.
+See [`.gitconfig`](/source-control/.gitconfig) for the list of aliases with comments.
 
 ## Files to Ignore
-Common ignore files, such as IDE files, can be configured via a [`.gitignore`](/source-control/.gitignore) file identified in the `.gitconfig` 
+[`.gitignore`](/source-control/.gitignore) can be used to ignore common files such as IDE files. This global ignore file can be configured in the the [`.gitconfig`](/source-control/.gitconfig) via
 ```
 [core]
 excludesfile = ~/.gitignore
@@ -66,7 +53,7 @@ $ git push origin 123-my-feature-branch-name-snake-case -f
 Merge feature branch into master either from Github, and then delete the feature branch from Github.
 
 ## Commit Message Convention
-We follow the [AngularJS Git Commit Message Conventions](https://docs.google.com/document/u/0/d/1QrDFcIiPjSLDn3EL15IJygNPiHORgU1_OOAqWjiDU5Y/mobilebasic) (with some modifications) to allow for better historical information and the generation of a `CHANGELOG.md` by script. 
+We follow the [AngularJS Git Commit Message Conventions](https://docs.google.com/document/d/1OLFfQHdZXpd-oBNik3_rgFyPooZ3U4-KAGQrEpQVbXs/edit?usp=sharing) (with some modifications) to allow for better historical information and the generation of a `CHANGELOG.md` by script. 
 
 ### Commit Message Format
 
@@ -112,4 +99,9 @@ separated list of issue numbers prefixed with a hashtag "#".
 ### Breaking
 Optional section to describe the features that the commit breaks. Identified with the keyword `Breaks`.
 
-
+### Commit Hook
+To ensure that your commits match the commit message conventions you can configure a git commit hook.
+  
+Download [`validate-commit-msg.js`](/source-control/validate-commit-msg.js) (directions below assume you've placed it at the root of your repository).
+* PC: In cmd from the root of your repository run `ln -s ../../validate-commit-msg.js .git/hooks/commit-msg`
+* MAC: `sudo -s /usr/local/bin/node /usr/bin/node`
