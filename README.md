@@ -9,7 +9,8 @@ Base Two development standards, best practices, and tools.
     1. [Commit Message Convention](/source-control/source-control.md#commit-message-convention)
 1. Languages
     1. [JavaScript](/javascript/javascript.md)
-    1. C#  
+    1. C#
+    1. [CSS](css/css.md)
 1. IDEs
     1. JetBrains (WebStorm)
     1. Sublime Text
