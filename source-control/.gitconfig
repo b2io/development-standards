@@ -1,31 +1,48 @@
 [core]
-	autocrlf = true
-	excludesfile = ~/.gitignore
+    autocrlf = true
+    excludesfile = ~/.gitignore
 [push]
-	default = simple
+    default = simple
 [alias]
-	amend = commit --amend -C HEAD			# Amend the previous commit message
-	aa = add . 					# Add all
-	ba = branch --all				# Show all local and remote branches
-	br = branch       				# Show all local branches
-	ci = commit 					# commit
-	cm = commit -m 					# Commit with message
-	co = checkout 					# checkout
-	cob = checkout -b 				# Create new branch and checkout
-	d = branch -D 					# Hard delete branch
-	dc = diff --cached 				# List changes with cached remote
-	hist = log --graph --pretty=format:'%h %ad | %s%d [%an]' --date=short
-							# Commit history with dates
-	last = log -1 HEAD				# Display log for last commit
-	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr, %cn)%Creset' --abbrev-commit --date=relative
-							# More succinct log
-	puff = pull --ff --ff-only			# To be used instead of `pull` to avoid the creation of a merge branch on `pull`
-  	s = status					# status
-  	st = status					# status
-	unstage = reset HEAD --				# Unstages changes
+    # Amend the previous commit message
+    amend = commit --amend -C HEAD
+    # Add all
+    aa = add .
+    # Show all local and remote branches
+    ba = branch --all
+    # Show all local branches
+    br = branch
+    # Commit
+    ci = commit
+    # Commit with message
+    cm = commit -m
+    # Checkout
+    co = checkout
+    # Create new branch and checkout
+    cob = checkout -b
+    # Create remote branch and track locally
+  	cot = checkout -t
+    # Hard delete branch
+    d = branch -D
+    # List changes with cached remote
+    dc = diff --cached
+    # Commit history with dates
+    hist = log --graph --pretty=format:'%h %ad | %s%d [%an]' --date=short
+    # Display log for last commit
+    last = log -1 HEAD
+    # More succinct log
+    lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr, %cn)%Creset' --abbrev-commit --date=relative
+    # To be used instead of `pull` to avoid the creation of a merge branch on `pull`
+    puff = pull --ff --ff-only
+    # Status
+  	s = status
+    # Status
+  	st = status
+    # Unstages changes
+  	unstage = reset HEAD --
 [fetch]
-	prune = true
+    prune = true
 [mergetool]
-	keepBackup = false
+    keepBackup = false
 [branch "master"]
-    mergeoptions = --no-ff
+  	mergeoptions = --no-ff
