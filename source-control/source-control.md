@@ -25,7 +25,7 @@ The [`.gitconfig`](/source-control/.gitconfig) serves as a global configuration 
 See [`.gitconfig`](/source-control/.gitconfig) for the list of aliases with comments.
 
 ## Files to Ignore
-[`.gitignore`](/source-control/.gitignore) can be used to ignore common files such as IDE files. This global ignore file can be configured in the the [`.gitconfig`](/source-control/.gitconfig) via
+[`.gitignore`](/source-control/.gitignore) can be used to ignore common files such as IDE files. This global ignore file can be configured in the [`.gitconfig`](/source-control/.gitconfig) via
 ```
 [core]
 excludesfile = ~/.gitignore
