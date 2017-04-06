@@ -15,3 +15,4 @@ Base Two development standards, best practices, and tools.
     1. JetBrains (WebStorm)
     1. Sublime Text
     1. Visual Studio
+    1. [Atom](./ide/atom/)
