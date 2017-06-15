@@ -12,11 +12,11 @@ We alphabetize our declarations within a declaration block. This is useful for a
 
 ```
 .example {
-	background: #000;
-	border: 0;
-	color: #fff;
-	font-size: 1em;
-	z-index: 100;
+  background: #000;
+  border: 0;
+  color: #fff;
+  font-size: 1em;
+  z-index: 100;
 }
 ```
 
@@ -32,7 +32,7 @@ Each selector and declaration should be on its own line.
 #this,
 .is .the,
 .correct.way {
-	content: "much better!";
+  content: "much better!";
 }
 ```
 
@@ -42,11 +42,11 @@ Omit the leading 0 on fractions:`.7em` instead of `0.7em`
 Omit the unit for zero values:
 ```
 .incorrect {
-	padding: 0em 2em;
+  padding: 0em 2em;
 }
 
 .correct {
-	padding: 0 2em;
+  padding: 0 2em;
 }
 ```
 
@@ -54,13 +54,13 @@ Use shorthand wherever possible:
 
 ```
 .incorrect {
-	border-color: blue blue transparent blue;
-	margin: 0 auto 0;
+  border-color: blue blue transparent blue;
+  margin: 0 auto 0;
 }
 
 .correct {
-	border-color: blue blue transparent;
-	margin: 0 auto;
+  border-color: blue blue transparent;
+  margin: 0 auto;
 }
 ```
 
@@ -69,11 +69,11 @@ Use shorthand wherever possible:
 There should always be a space after colons and commas and before the opening curly brace of a declaration block.
 ```
 .spaces--incorrect{
-	color:rgb(0,0,0);
+  color:rgb(0,0,0);
 }
 
 .spaces--correct {
-	color: rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
 }
 ```
 
@@ -84,17 +84,17 @@ Declarations should still be in alphabetical order in all .SCSS files. However, 
 
 ```
 .incorrect {
-	border: 1px solid;
-	@include border-radius(5px);
-	color: #000;
-	@extend %button;
+  border: 1px solid;
+  @include border-radius(5px);
+  color: #000;
+  @extend %button;
 }
 
 .incorrect {
-	@include border-radius(5px);
-	@extend %button;
-	border: 1px solid;
-	color: #000;
+  @include border-radius(5px);
+  @extend %button;
+  border: 1px solid;
+  color: #000;
 }
 ```
 
