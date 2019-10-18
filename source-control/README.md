@@ -31,12 +31,12 @@ The root directory of each repository should contain a `.gitignore` file that id
 
 ## Workflow
 
-A new branch should be created for each issue. The feature branch should be pull requested back into the `master` branch, after peer approval the requester should rebase the feature branch with the latest `master` and then merge the feature branch into `master`.
+A new branch should be created for each issue/card. The feature branch should be pull requested back into the `master` branch, after peer approval the requester should rebase/squash the feature branch into `master`.
 
-1. Get latest from master: `$ git puff origin`
-2. Create feature branch: `$ git cob 123-my-feature-branch-name-snake-case`
-3. Push the feature branch to the remote prior to leaving for the day or pull request: `$ git push origin 123-my-feature-branch-name-snake-case -u`
-4. After PR approval rebase with master:
+1. Get latest from master: `$ git puff` (`$ git puff origin` if you happen to have multiple remotes)
+2. Create feature branch: `$ git cob 123-my-feature-branch-name-snake-case` (where 123 is the card number)
+3. Push the feature branch to the remote prior to leaving for the day or creating a pull request: `$ git push origin 123-my-feature-branch-name-snake-case -u` (-u to set the upstream)
+4. After PR approval use the "Squash and merge" button on Github, and then delete the remote branch. If you'd like to rebase/squash without the button you can do so via:
 
 ```
 $ git puff origin master
@@ -46,11 +46,9 @@ $ git rebase -i master
 $ git push origin 123-my-feature-branch-name-snake-case -f
 ```
 
-Merge feature branch into master either from Github, and then delete the feature branch from Github.
-
 ## Commit Message Convention
 
-We follow the [AngularJS Git Commit Message Conventions](https://docs.google.com/document/d/1OLFfQHdZXpd-oBNik3_rgFyPooZ3U4-KAGQrEpQVbXs/edit?usp=sharing) (with some modifications) to allow for better historical information and the generation of a `CHANGELOG.md` by script.
+Our commit messaging differs depending on the client, but we typically follow a pattern similar to the [AngularJS Git Commit Message Conventions](https://docs.google.com/document/d/1OLFfQHdZXpd-oBNik3_rgFyPooZ3U4-KAGQrEpQVbXs/edit?usp=sharing) (with some modifications) to allow for better historical information and the generation of a `CHANGELOG.md` by script.
 
 ### Commit Message Format
 
@@ -100,12 +98,3 @@ separated list of issue numbers prefixed with a hashtag "#".
 ### Breaking
 
 Optional section to describe the features that the commit breaks. Identified with the keyword `Breaks`.
-
-### Commit Hook
-
-To ensure that your commits match the commit message conventions you can configure a git commit hook.
-
-Download [`validate-commit-msg.js`](/source-control/validate-commit-msg.js) (directions below assume you've placed it at the root of your repository).
-
-- PC: In cmd from the root of your repository run `ln -s ../../validate-commit-msg.js .git/hooks/commit-msg`
-- MAC: `sudo -s /usr/local/bin/node /usr/bin/node`
