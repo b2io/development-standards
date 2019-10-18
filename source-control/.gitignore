@@ -6,6 +6,7 @@
 
 # NPM debugging log files.
 npm-debug.log
+node_modules
 
 # JetBrains editor files.
 /**/.idea
@@ -17,6 +18,7 @@ npm-debug.log
 *.userosscache
 *.sln.docstates
 */**/.vs/
+.vscode/
 
 ## ReSharper is a .NET coding add-in
 _ReSharper*/
@@ -49,3 +51,6 @@ bld/
 # SQL Server files
 *.mdf
 *.ldf
+
+# js files
+tsconfig.json
