@@ -16,3 +16,8 @@ Base Two development standards, best practices, and tools.
 1. IDEs
    1. VS Code
    1. Visual Studio
+1. Linting and Format Setup
+   1. [VSCode](/source-control/README.md#VS-Code)
+      1. EsLint
+      1. Prettier
+      1. Gulp
