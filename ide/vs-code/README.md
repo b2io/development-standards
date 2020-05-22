@@ -46,15 +46,6 @@ Optional additional packages that can be included int the above install:
 - React specific linting rules for ESLint `npm install eslint-plugin-react --save-dev`
 -
 
-# Sublime Text
-
-Download: <https://www.sublimetext.com/3>
-
-## SublimeLinter
-
-- Press Crt+Shift+P to open the pallette. Type in 'Package' and select 'Package Control: Install Package'
-- Type 'SublimeLinter' into the text box of the pallate, and select. (Select SublimeLinter not SublimeLint). Docs for SublimeLinter can be found [here](http://www.sublimelinter.com)
-
 Navit
 
 - EditorConfig
