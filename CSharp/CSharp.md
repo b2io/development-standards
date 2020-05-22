@@ -11,3 +11,5 @@
 - [NuGet Package Manager](https://marketplace.visualstudio.com/items?itemName=jmrog.vscode-nuget-package-manager) : An extension for Visual Studio Code that lets you easily add or remove .NET Core package references to your project's .csproj or .fsproj files.
 - [Visual Studio Keymap](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vs-keybindings) : Ports popular Visual Studio keyboard shortcuts to Visual Studio Code.
 - [C# XML Documentation Comments](https://marketplace.visualstudio.com/items?itemName=k--kato.docomment) : Generate XML documentation comments for Visual Studio Code.
+- [Code Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner) : Run a few lines of code in C# or Javascript inside a code file.
+- [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) : A basic spell checker that works well with camelCase code.
