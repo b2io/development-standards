@@ -14,10 +14,14 @@ Base Two development standards, best practices, and tools.
    1. [C#](CSharp/CSharp.md)
    1. [CSS](css/css.md)
 1. IDEs
-   1. VS Code
+   1. [VS Code](/ide/vs-code/README.md)
    1. Visual Studio
+   1. [Sublime Text](/ide/Sublime/README.md)
 1. Linting and Format Setup
-   1. [VSCode](/source-control/README.md#VS-Code)
-      1. EsLint
-      1. Prettier
+   1. [VSCode](/ide/vs-code/README.md#VS-Code)
+      1. [EsLint & Prettier](/ide/vs-code/README.md#ESLint-&-Prettier)
       1. Gulp
+   1. [Sublime Text](/ide/Sublime/README.md)
+      1. [SublimeLinter](/ide/Sublime/README.md#SublimeLinter)
+      1. [JSHint](/ide/Sublime/README.md#JSHint)
+      1. [Prettier](/ide/Sublime/README.md#Prettier)
