@@ -15,4 +15,21 @@ Download: <https://www.sublimetext.com/3>
 
 ### Prettier
 
+- Press `Crt+Shift+P` to open the command palette. Type in `Package` and select `Package Control: Install Package`
+- Type `JsPrettier`, then select it to complete the installation.
+
+### Usage
+
+- To use Prettier Press `Crt+Shift+P` to open the command palette, type `JsPrettier Format Code`
+- Or right click anywhere in file to open the Context Menu, and select `JSPrettier Format Code`
+
+### Customize
+
+- Go to menu: Preferences => Package Settings => JSPrettier => Settings: User
+  -Include custom congifurations.
+
+Ex:
+
+`{ "auto_format_on_save_excludes": [ "*/node_modules/*", "*/file.js", "*.json" ] }`
+
 https://packagecontrol.io/packages/JsPrettier
