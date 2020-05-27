@@ -19,3 +19,8 @@ Download: <https://atom.io/>
   - Install peer dependencies, and Airbnb by running `npx install-peerdeps --dev eslint-config-airbnb`
 
 ## Prettier
+
+- Type `crt+shift+P` to open command palette, and type `Application: Show Preferences` and select.
+- Click on the `Install` option in the left hand menue of the preferences window.
+- Type `prettier-atom` into the search field. Locate the package from the returned list, and click install.
+  - Once installation is complete click `Settings` and check the box labeled `Format Files on Save`
