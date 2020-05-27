@@ -16,8 +16,6 @@ Download: <https://atom.io/>
 - Type `linter-eslint` into the search field. Locate the package from the returned list, and click install.
 - Type `linter` into the search field, and locate the linter package from the returned list, and click to install.
 - Open your terminal, and navigate to the root directory of your project.
-  - Install the ESLint Cli by running `npm -g i eslint-cli`
-  - Install ESLint locally to your project by running `npm i --save-dev eslint`
-  - Initialize ESLint by running `eslint --init` and answering the following questions specific to your project, and selecting Airbnb as the style guide. (Recommended)
+  - Install peer dependencies, and Airbnb by running `npx install-peerdeps --dev eslint-config-airbnb`
 
 ## Prettier
