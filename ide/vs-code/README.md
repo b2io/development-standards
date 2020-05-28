@@ -12,7 +12,7 @@ Runs [Prettier](https://github.com/prettier/prettier) as an [ESLint](http://esli
 
 #### eslint-config-prettier
 
-Turns off all rules that are unnecessary or might conflict with [Prettier].
+Turns off all rules that are unnecessary or might conflict with Prettier.
 
 This lets you use your favorite shareable config without letting its stylistic choices get in the way when using Prettier.
 
@@ -27,8 +27,6 @@ A code analysis tool for identifying and reporting problematic patterns in Javas
 #### eslint-config-node
 
 Pluggable ESLint config for Node.js that you can import, extend and override
-
-<!-- ****************************************** -->
 
 ### Install ESLint & Prettier for VSCode
 

@@ -15,7 +15,7 @@ Base Two development standards, best practices, and tools.
    1. [CSS](css/css.md)
 1. IDEs
    1. [VS Code](/ide/vs-code/README.md)
-   1. Visual Studio
+   1. [Visual Studio](/ide/VisualStudio/README.md)
    1. [Sublime Text](/ide/Sublime/README.md)
 1. Linting and Format Setup
    1. [VSCode](/ide/vs-code/README.md#VS-Code)
