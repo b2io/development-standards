@@ -18,5 +18,3 @@ Menue: Tools => NUGET Package Manager => Manage Nuget Packages
 - Check Enable `ESLint`
 
 If your project has a local install of ESLint, that version will be used instead.
-
-## Prettier
