@@ -31,6 +31,4 @@ Download: <https://www.sublimetext.com/3>
 
   - Include custom congifurations.
 
-        - Ex:
-
-    `{ "auto_format_on_save_excludes": [ "*/node_modules/*", "*/file.js", "*.json" ] }`
+        - Ex: `{ "auto_format_on_save_excludes": [ "*/node_modules/*", "*/file.js", "*.json" ] }`
