@@ -10,7 +10,7 @@ Base Two development standards, best practices, and tools.
    1. [Workflow](/source-control/README.md#workflow)
    1. [Commit Message Convention](/source-control/README.md#commit-message-convention)
 1. Languages
-   1. JavaScript
+   1. [JavaScript](/javascript/README.md)
    1. [C#](CSharp/CSharp.md)
    1. [CSS](css/css.md)
 1. IDEs
