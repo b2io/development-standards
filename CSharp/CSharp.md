@@ -39,6 +39,71 @@ public class OperationsManager : Manager
 }
 ```
 
+# Fields
+
+- Fields should be named using Camel casing.
+- Field names should be a noun or phrase descriptive enough to describe its use.
+- Hungarian notation should be avoided. I.e. Prefix of `m_` or `_` should be replaced with more descriptive names.
+
+```
+private Customer customer;
+private ICollection<Customer> Customers;
+private decimal productPrice;
+private DateTime paymentDate;
+```
+
+# Naming Events
+
+- Use Pascal casing.
+- Use verb to describe the event. I.e. `stateChanged` or `buttonClicked`
+- Name event using a verb to describe the action. I.e.
+- Use `-ing` if possible to name event
+
+# Naming Properties
+
+- Use Pascal casing.
+- Name properties with noun or phrase.
+- Hungarian notation should be avoided. I.e. Prefix of `m_` or `_` should be replaced with more descriptive names.
+
+```
+public String UserName
+{
+    get; set;
+}
+public Customer Customer
+{
+    get; set;
+}
+```
+
+# Method Names
+
+- Pascal Casing
+- Methods should named with a verb or phrase that describes the action performed by the method.
+- Each method should perfom on action, making naming simple.
+
+```
+public void PerformCalculations()
+{
+}
+public Customer GetCustomer()
+{
+}
+```
+
+# Method Parameters
+
+- Use Camel casing
+- Name parameters with a descriptive noun or phrase that can be used to determine the meaning/use.
+- Avoid Hungarian notations
+
+```
+public decimal GetSalesTax(decimal salePrice, decimal taxRate)
+{
+}
+public Customer GetCustomer(string firstName, int idNumber)
+```
+
 - Pascal Casing for Class and Method names. Ex: `GetTaxCalculations`
 - Camel Casing for variables and method parameters. Ex: `firstName`
 - Prefix `I` with Pascal Casing for interface name. Ex: `IDisposable`
@@ -46,4 +111,6 @@ public class OperationsManager : Manager
 
 ### Layout Conventions
 
-Layout
+## Language Guidlines
+
+- string interpolation
