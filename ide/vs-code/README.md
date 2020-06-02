@@ -2,33 +2,7 @@
 
 Download: <https://code.visualstudio.com/>
 
-## Packages
-
-### ESLint & Prettier
-
-#### eslint-plugin-prettier
-
-Runs [Prettier](https://github.com/prettier/prettier) as an [ESLint](http://eslint.org) rule and reports differences as individual ESLint issues.
-
-#### eslint-config-prettier
-
-Turns off all rules that are unnecessary or might conflict with Prettier.
-
-This lets you use your favorite shareable config without letting its stylistic choices get in the way when using Prettier.
-
-Note that this config _only_ turns rules _off,_ so it only makes sense using it together with some other config.
-
-#### eslint-plugin-node
-
-Additional ESLint's rules for Node.js
-
-A code analysis tool for identifying and reporting problematic patterns in Javascript.
-
-#### eslint-config-node
-
-Pluggable ESLint config for Node.js that you can import, extend and override
-
-### Install ESLint & Prettier for VSCode
+## Install ESLint & Prettier for VSCode
 
 Open Extensions menu in VSCode, and Search for `EsLint` and `Prettier`, and install. Or install from The extension marketplace [here](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) and [here](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode).
 
@@ -46,7 +20,20 @@ Optional additional packages that can be included in the above install:
 #### Create ESLint Config
 
 - run `eslint --init` and follow command prompts to create [.eslintrc.js](/.eslintrc.js)
-  - remove all generated code except for `extends` and `rules`
+- remove all generated code except for `extends` and `rules`
+- add `plugins` to exports, and include the `prettier` plugin.
+- Include `prettier/prettier` in the rules
+- reference [eslintrc.js](/.eslintrc.js)
+
+```
+module.exports = {
+  extends: ["airbnb", "prettier"],
+  plugins: ["prettier"],
+  rules: {
+    "prettier/prettier": "error",
+  },
+};
+```
 
 #### Create Prettier Config
 
@@ -56,6 +43,10 @@ Optional additional packages that can be included in the above install:
   - [Prettier rules can be found here](https://prettier.io/docs/en/options.html)
 
 #### Custom Configurations
+
+Additional linting rules can be found at <https://eslint.org/docs/rules/>
+
+- Suggested CSS linting rules [can be found here](/css/.csslintrc).
 
 Navit
 
