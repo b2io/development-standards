@@ -49,3 +49,12 @@ Additional linting rules can be found at <https://eslint.org/docs/rules/>
 - Suggested CSS linting rules [can be found here](/css/.csslintrc).
 - A few suggested javascript [configuration objects can be found here](/javascript/.eslintrc)
 - A few additional javascript [linting rules can be found here](/javascript/.jscsrc)
+
+#### References
+
+- [ESLint Rules](https://eslint.org/docs/rules/)
+- [Prettier Options](https://prettier.io/docs/en/options.html)
+- [Airbnb Style Guide](https://github.com/airbnb/javascript)
+- [VS Code](https://code.visualstudio.com/)
+- [ESLint Plugin](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+- [Prettier Plugin](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
