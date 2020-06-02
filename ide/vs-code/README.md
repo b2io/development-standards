@@ -47,9 +47,5 @@ module.exports = {
 Additional linting rules can be found at <https://eslint.org/docs/rules/>
 
 - Suggested CSS linting rules [can be found here](/css/.csslintrc).
-
-Navit
-
-- EditorConfig
-- Prettier
-- stylelint
+- A few suggested javascript [configuration objects can be found here](/javascript/.eslintrc)
+- A few additional javascript [linting rules can be found here](/javascript/.jscsrc)
