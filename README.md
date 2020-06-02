@@ -20,7 +20,7 @@ Base Two development standards, best practices, and tools.
 1. Linting and Format Setup
    1. [VSCode](/ide/vs-code/README.md#VS-Code)
       1. [EsLint & Prettier](/ide/vs-code/README.md#ESLint-&-Prettier)
-      1. Gulp
+      1. [Gulp](/Gulp/README.md)
    1. [Sublime Text](/ide/Sublime/README.md)
       1. [SublimeLinter](/ide/Sublime/README.md#SublimeLinter)
       1. [JSHint](/ide/Sublime/README.md#JSHint)
