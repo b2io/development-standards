@@ -1,8 +1,14 @@
 # C# Development in Visual Studio Code
 
+C# can be written in either VS Code or Visual Studio
+
+### To Use VS Code
+
 - [Install Visual Studio Code](https://code.visualstudio.com/)
-- [Install .Net Core SDK](https://dotnet.microsoft.com/download)
-- [Install C# extension](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp>)
+  - [Install .Net Core SDK](https://dotnet.microsoft.com/download)
+  - [Install C# extension](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp>)
+
+Visual Studio can handle c# out of the box, setup recommendations are [here](/ide/VisualStudio/README.md)
 
 ## Other Helpful Extensions
 
@@ -56,7 +62,7 @@ private DateTime paymentDate;
 
 - Use Pascal casing.
 - Use verb to describe the event. I.e. `stateChanged` or `buttonClicked`
-- Name event using a verb to describe the action. I.e.
+- Name event using a verb to describe the action.
 - Use `-ing` if possible to name event
 
 # Naming Properties
@@ -111,6 +117,16 @@ public Customer GetCustomer(string firstName, int idNumber)
 
 ### Layout Conventions
 
-## Language Guidlines
+Layout shoud emphasize the code structure in a way to make it easy to read
 
-- string interpolation
+- Use a single statement/declaration per line
+- Indent statements that continue to the next line
+- One and only one line of whitespace between method/property declerations
+
+## Commenting Conventions
+
+- Code should be written in a self commenting manner, and comments should be used sparingly
+  - clarifying comments can add to code smell, and often is a sign that the code should be refined.
+- Give the comment its own line, do not add to the end of a line of code
+- Write comments with proper grammer, and punctuation
+- Add one space between the `//` and the comment
