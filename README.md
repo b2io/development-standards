@@ -17,7 +17,7 @@ Base Two development standards, best practices, and tools.
    1. [VS Code](/ide/vs-code/README.md)
    1. [Visual Studio](/ide/VisualStudio/README.md)
    1. [Sublime Text](/ide/Sublime/README.md)
-   1. [Atom](/ide/Atom/README.md)
+   1. [Atom](/ide/atom/README.md)
 1. Linting and Format Setup
    1. [VSCode](/ide/vs-code/README.md#VS-Code)
       1. [EsLint & Prettier](/ide/vs-code/README.md#ESLint-&-Prettier)
