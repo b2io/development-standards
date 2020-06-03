@@ -26,3 +26,6 @@ Base Two development standards, best practices, and tools.
       1. [SublimeLinter](/ide/Sublime/README.md#SublimeLinter)
       1. [JSHint](/ide/Sublime/README.md#JSHint)
       1. [Prettier](/ide/Sublime/README.md#Prettier)
+   1. [Atom](/ide/atom/README.md)
+      1. [ESLint](/ide/atom/README.md#eslint)
+      1. [Prettier](/ide/atom/README.md#prettier)
