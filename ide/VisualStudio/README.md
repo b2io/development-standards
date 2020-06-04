@@ -7,7 +7,7 @@ Download Community: <https://visualstudio.microsoft.com/vs/community/>
 Menue: Tools => NUGET Package Manager => Manage Nuget Packages
 
 - Search for and install
-  - EnityFramework Core
+  - Entity Framework Core
   - Dapper
   - Moq
   - Xunit
