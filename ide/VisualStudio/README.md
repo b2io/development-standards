@@ -4,7 +4,8 @@ Download Community: <https://visualstudio.microsoft.com/vs/community/>
 
 ## Nuget Packages
 
-Menue: Tools => NUGET Package Manager => Manage Nuget Packages
+Menu: Tools => NUGET Package Manager => Manage Nuget Packages
+
 
 - Search for and install
   - Entity Framework Core
