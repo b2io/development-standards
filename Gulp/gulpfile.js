@@ -38,7 +38,7 @@ function jsTask() {
 
 // CACHE BUSTING
 // clears cache when css & js changes are made
-// /"cacheBusting" attribute is added to stylesheet link, and script link in index.html
+// "cacheBusting" attribute is added to stylesheet link, and script link in index.html
 // /to track changes by milliseonds of the time file is saved.
 const cacheBustingString = new Date().getTime();
 function cacheBustingTask() {
