@@ -85,7 +85,7 @@ public Customer Customer
 # Method Names
 
 - Pascal Casing
-- Methods should named with a verb or phrase that describes the action performed by the method.
+- Methods should be named with a verb or phrase that describes the action being performed by the method.
 - Each method should perfom on action, making naming simple.
 
 ```
