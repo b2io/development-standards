@@ -1,6 +1,6 @@
 # C# Development in Visual Studio Code
 
-C# can be written in either VS Code or Visual Studio
+C# can be written in either VS Code or Visual Studio.
 
 ### To Use VS Code
 
