@@ -22,6 +22,7 @@ The root directory of each repository should contain a `.gitignore` file that id
 - Command line - The majority of the team uses command line exclusively. We tend to leverage the aliases in the **[`.gitconfig`](/source-control/.gitconfig)** fairly heavily..
 - [SourceTree](http://www.sourcetreeapp.com/)
 - [Visual Studio Code](https://code.visualstudio.com)
+  - [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
 
 ### Mergetools
 
