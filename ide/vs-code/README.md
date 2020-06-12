@@ -61,7 +61,7 @@ Additional linting rules can be found at <https://eslint.org/docs/rules/>
 ### Start or Join a Session
 
 - Select the now-installed Live Share extension on the left icon bar
-- Sign in through GitHub when/if prompted
+- Click **"Join collaboration session..."** or **"Start collaboration session..."**, and sign in using a GitHub (or Microsoft) account
 - After starting a session, it will generate a URL that you can share with people
 - You can invite people through the **"Contacts"** section
 - Close a sharing session by pressing the red prohibited symbol (🚫&nbsp;&nbsp;&nbsp;) in the top-right of the **"Session Details"** section
