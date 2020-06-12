@@ -64,7 +64,7 @@ Additional linting rules can be found at <https://eslint.org/docs/rules/>
 - Sign in through GitHub when/if prompted
 - After starting a session, it will generate a URL that you can share with people
 - You can invite people through the **"Contacts"** section
-- Close a sharing session by pressing the red prohibited symbol (🚫) in the top-right of the **"Session Details"** section
+- Close a sharing session by pressing the red prohibited symbol (🚫&nbsp;&nbsp;&nbsp;) in the top-right of the **"Session Details"** section
 
 <table>
   <tr>
@@ -84,7 +84,7 @@ Additional linting rules can be found at <https://eslint.org/docs/rules/>
   - You'll follow their cursor in an open file, as well as see any additional files they may open.
 - Using the VS Code terminal, you can share local development servers with collaborators
 - You can give collaborators **write-access** to the VS Code terminal by right-clicking a shared terminal under **"Shared Terminals"**, and selecting **"Make Read/Write"**
-- Stop sharing terminals or servers by right-clicking on them under **"Session Details"**, or clicking the red X (❌) to the right of the item
+- Stop sharing terminals or servers by right-clicking on them under **"Session Details"**, or clicking the red X (❌&nbsp;&nbsp;&nbsp;) to the right of the item
 
 <img src="./images/live-share-pairing.png" alt="Follow participants; share terminals and servers" width="75%" height="75%" />
 
