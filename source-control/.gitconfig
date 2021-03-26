@@ -31,7 +31,7 @@
   prune = true
 [mergetool]
   keepBackup = false
-[branch "master"]
-  mergeoptions = --no-ff # ensures that all merges into master create a merge commit
+[branch "main"]
+  mergeoptions = --no-ff # ensures that all merges into main create a merge commit
 #[includeIf "gitdir:~/workspace/differentAccountDirectory/"] # load .gitconfig in a subdirectory
 #  path = ~/workspace/differentAccountDirectory/.gitconfig

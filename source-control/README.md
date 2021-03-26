@@ -32,18 +32,18 @@ The root directory of each repository should contain a `.gitignore` file that id
 
 ## Workflow
 
-A new branch should be created for each issue/card. The feature branch should be pull requested back into the `master` branch, after peer approval the requester should rebase/squash the feature branch into `master`.
+A new branch should be created for each issue/card. The feature branch should be pull requested back into the `main` branch, after peer approval the requester should rebase/squash the feature branch into `main`.
 
-1. Get latest from master: `$ git puff` (`$ git puff origin` if you happen to have multiple remotes)
+1. Get latest from main: `$ git puff` (`$ git puff origin` if you happen to have multiple remotes)
 2. Create feature branch: `$ git cob 123-my-feature-branch-name-snake-case` (where 123 is the card number)
 3. Push the feature branch to the remote prior to leaving for the day or creating a pull request: `$ git push origin 123-my-feature-branch-name-snake-case -u` (-u to set the upstream)
 4. After PR approval use the "Squash and merge" button on Github, and then delete the remote branch. If you'd like to rebase/squash without the button you can do so via:
 
 ```
-$ git puff origin master
+$ git puff origin main
 $ git co 123-my-feature-branch-name-snake-case
 $ git puff origin 123-my-feature-branch-name-snake-case
-$ git rebase -i master
+$ git rebase -i main
 $ git push origin 123-my-feature-branch-name-snake-case -f
 ```
 
