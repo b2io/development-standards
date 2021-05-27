@@ -31,7 +31,7 @@ Coding conventions and standards to create consistent and readable code
 - When naming namespaces Pascal case should be used
 - Use client name as root of namespace, project as second level, technology or descriptor as third and/or fourth level.
   ```
-  namespace AEP.MaterialOrderBuilder.Data.Extensions
+  namespace ABC.SoftwareName.Data.Extensions
   ```
 
 #### Classes
