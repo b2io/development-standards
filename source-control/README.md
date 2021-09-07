@@ -23,6 +23,8 @@ The root directory of each repository should contain a `.gitignore` file that id
 - [SourceTree](http://www.sourcetreeapp.com/)
 - [Visual Studio Code](https://code.visualstudio.com)
   - [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
+  - [Stylelint](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint)
+  - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 
 ### Mergetools
 
