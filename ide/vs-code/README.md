@@ -98,3 +98,4 @@ Additional linting rules can be found at <https://eslint.org/docs/rules/>
 - [Prettier Plugin](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 - [Live Share](https://visualstudio.microsoft.com/services/live-share/)
 - [Sample Settings file](./sample/settings-sample.json)
+
