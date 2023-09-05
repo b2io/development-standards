@@ -6,7 +6,6 @@ Download Community: <https://visualstudio.microsoft.com/vs/community/>
 
 Menu: Tools => NUGET Package Manager => Manage Nuget Packages
 
-
 - Search for and install
   - Entity Framework Core
   - Dapper
