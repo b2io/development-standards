@@ -1,6 +1,6 @@
 # IntelliJ
 
-Download Idea (formerly Community): <https://www.jetbrains.com/idea/>
+Downloa IntelliJ IDEA Community: <https://www.jetbrains.com/idea/>
 
 ## Packages
 
