@@ -51,7 +51,7 @@ $ git push origin 123-my-feature-branch-name-snake-case -f
 
 ## Commit Message Convention
 
-Our commit messaging differs depending on the client, but we typically follow a pattern similar to the [AngularJS Git Commit Message Conventions](https://docs.google.com/document/d/1OLFfQHdZXpd-oBNik3_rgFyPooZ3U4-KAGQrEpQVbXs/edit?usp=sharing) (with some modifications) to allow for better historical information and the generation of a `CHANGELOG.md` by script.
+Our commit messaging differs depending on the client, but we typically follow a pattern similar to the [ Semantic Commit Messages Conventions](https://gist.github.com/joshbuchea/6f47e86d2510bce28f8e7f42ae84c716) (with some modifications) to allow for better historical information and the generation of a `CHANGELOG.md` by script.
 
 ### Commit Message Format
 
