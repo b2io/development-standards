@@ -8,7 +8,7 @@ Open Extensions menu in VSCode, and Search for `EsLint` and `Prettier`, and inst
 
 ### Install Packages
 
-- Open a command line tool, `crt + j` inside VSCode.
+- Open a command line tool, `crt + j` inside VSCode (or use your terminal product of choice)
 - Run `npm init -y` to create a `package.json` file
 - Run `npm i -D eslint prettier eslint-plugin-prettier eslint-config-prettier` to install as a dev dependency.
 
@@ -27,10 +27,10 @@ Optional additional packages that can be included in the above install:
 
 ```js
 module.exports = {
-  extends: ["airbnb", "prettier"],
-  plugins: ["prettier"],
+  extends: ['airbnb', 'prettier'],
+  plugins: ['prettier'],
   rules: {
-    "prettier/prettier": "error",
+    'prettier/prettier': 'error',
   },
 };
 ```
@@ -97,3 +97,4 @@ Additional linting rules can be found at <https://eslint.org/docs/rules/>
 - [ESLint Plugin](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 - [Prettier Plugin](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 - [Live Share](https://visualstudio.microsoft.com/services/live-share/)
+- [Sample Settings file](./settings-sample.json)
