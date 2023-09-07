@@ -110,4 +110,4 @@ Declarations should still be in alphabetical order in all .SCSS files. However, 
 
 ### Nesting
 
-In accordance with the [Inception Rule](http://thesassway.com/beginner/the-inception-rule), styles nested more than four levels deep should not pass a code review without justification.
+In accordance with the [Inception Rule](https://thesassway.com/beginner/the-inception-rule), styles nested more than four levels deep should not pass a code review without justification.

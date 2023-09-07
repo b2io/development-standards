@@ -6,7 +6,7 @@ C# can be written in either VS Code or Visual Studio.
 
 - [Install Visual Studio Code](https://code.visualstudio.com/)
   - [Install .Net Core SDK](https://dotnet.microsoft.com/download)
-  - [Install C# extension](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp>)
+  - [Install C# extension](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp)
 
 Visual Studio can handle C# out of the box. Setup recommendations are [here](/ide/VisualStudio/README.md).
 
