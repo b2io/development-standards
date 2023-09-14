@@ -9,7 +9,6 @@
   amend = commit --amend -C HEAD # Amend the previous commit message
   b = branch
   ba = branch --all # Show all local and remote branches
-  bd = branch -D
   br = branch --remote
   cane = commit --amend --no-edit
   ci = commit # Commit, which will open an editor for the commit message
