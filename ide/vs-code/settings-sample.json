@@ -1,0 +1,126 @@
+//This is a sample JSON settings file
+{
+  // General Settings:
+  "editor.fontLigatures": true,
+  "editor.fontFamily": "Cascadia Code PL",
+  "editor.fontSize": 16,
+  "editor.formatOnSave": true,
+  "editor.rulers": [80, 100],
+  "editor.renderWhitespace": "all",
+  "editor.tabSize": 2,
+  "emmet.syntaxProfiles": {
+    "javascript": ["html", "jsx"]
+  },
+  "explorer.autoReveal": false,
+  "explorer.openEditors.visible": 1,
+  "explorer.confirmDragAndDrop": false,
+  "javascript.validate.enable": false,
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "workbench.editor.enablePreview": false,
+  // Language Settings:
+  "[git-commit]": {
+    "editor.rulers": [50, 72]
+  },
+  "[git-rebase]": {
+    "editor.rulers": [50, 72]
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  // Extension Settings:
+  "gitlens.advanced.messages": {
+    "suppressCommitHasNoPreviousCommitWarning": false,
+    "suppressCommitNotFoundWarning": false,
+    "suppressFileNotUnderSourceControlWarning": false,
+    "suppressGitVersionWarning": false,
+    "suppressLineUncommittedWarning": false,
+    "suppressNoRepositoryWarning": false
+  },
+  "explorer.confirmDelete": false,
+  "gitlens.keymap": "alternate",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "diffEditor.ignoreTrimWhitespace": true,
+  "breadcrumbs.enabled": true,
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  "files.watcherExclude": {
+    "**/.cache/**": true,
+    "**/public/**": true
+  },
+  "extensions.ignoreRecommendations": false,
+  "launch": {
+    "configurations": [],
+    "compounds": []
+  },
+  "debug.console.fontSize": 16,
+  "markdown.preview.fontSize": 16,
+  "scm.inputFontSize": 16,
+  "terminal.integrated.fontSize": 16,
+  "editor.inlineSuggest.enabled": true,
+  "editor.renderControlCharacters": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "prettier.enableDebugLogs": true,
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "liveshare.connectionMode": "relay",
+  "workbench.colorTheme": "Ayu Mirage Bordered",
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+    "*.ts": "${capture}.js, ${capture}.typegen.ts",
+    "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
+    "*.jsx": "${capture}.js",
+    "*.tsx": "${capture}.ts, ${capture}.typegen.ts",
+    "tsconfig.json": "tsconfig.*.json",
+    "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml",
+    "*.mts": "${capture}.typegen.ts",
+    "*.cts": "${capture}.typegen.ts"
+  },
+  "editor.minimap.enabled": false,
+  "debug.javascript.autoAttachFilter": "disabled",
+  "githubPullRequests.pullBranch": "never",
+  "window.menuBarVisibility": "compact",
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell"
+    },
+    "PowerShell_7": {
+      "path": "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
+      "icon": "terminal-powershell"
+    },
+    "Command Prompt": {
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ],
+      "args": [],
+      "icon": "terminal-cmd"
+    },
+    "Git Bash": {
+      "source": "Git Bash"
+    }
+  },
+  "terminal.integrated.defaultProfile.windows": "PowerShell_7"
+}

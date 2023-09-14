@@ -1,5 +1,4 @@
 [core]
-  autocrlf = false
   excludesfile = ~/.gitignore
 [push]
   default = simple
@@ -8,14 +7,19 @@
 
   aa = add . # Stage all changes
   amend = commit --amend -C HEAD # Amend the previous commit message
+  b = branch
   ba = branch --all # Show all local and remote branches
+  br = branch --remote
+  cane = commit --amend --no-edit
   ci = commit # Commit, which will open an editor for the commit message
   cm = commit -m # Commit with inline message
   cob = checkout -b # Create new branch and checkout
   cot = checkout -t # Create remote branch and track locally
   d = branch -D # Hard delete branch (whether it has unpushed changes or not)
+  dc = diff --cached
   lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr, %cn)%Creset' --abbrev-commit --date=relative # More succinct log
   puff = pull --ff --ff-only # Instead of `pull`. Avoids creating a merge branch on `pull`
+  rhh = reset --hard HEAD
   s = status # Status
   st = status # Status
 
@@ -27,6 +31,10 @@
   hist = log --graph --pretty=format:'%h %ad | %s%d [%an]' --date=short # Commit history with dates
   last = log -1 HEAD # Display log for last commit
   unstage = reset HEAD -- # Unstages changes
+  
+ [user]
+  email = <your email here>
+  name = <your name here>
 [fetch]
   prune = true
 [mergetool]
