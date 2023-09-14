@@ -86,8 +86,6 @@ There should always be a space after colons and commas and before the opening cu
 }
 ```
 
-## Sass
-
 ### Declaration Order
 
 Declarations should still be in alphabetical order in all .SCSS files. However, all `@extend` and `@include` declarations should be listed first.

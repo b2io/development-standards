@@ -2,7 +2,7 @@ Source code is stored on [Github](https://github.com/b2io/) using the [Git](http
 
 ## Git Configuration
 
-See the following **[`.gitconfig`](/source-control/.gitconfig)** as a starting point to setup the same configuration and aliases as the rest of the team. In Windows this file is located in the `C:\Users\<username>` directory. In macOS (or any Unix-like operating system), the `.gitignore` file is typically stored in the root directory of your Git repository.
+See the following **[`.gitconfig`](/source-control/.gitconfig)** as a starting point to setup the same configuration and aliases as the rest of the team. In Windows this file is located in the `C:\Users\<username>` directory. The `.gitignore` file is typically stored in the root directory of your Git repository.
 
 ## Files to Ignore
 
