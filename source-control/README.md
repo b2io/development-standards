@@ -2,7 +2,7 @@ Source code is stored on [Github](https://github.com/b2io/) using the [Git](http
 
 ## Git Configuration
 
-See the following **[`.gitconfig`](/source-control/.gitconfig)** as a starting point to setup the same configuration and aliases as the rest of the team. In Windows this file is located in the `C:\Users\<username>` directory.
+See the following **[`.gitconfig`](/source-control/.gitconfig)** as a starting point to setup the same configuration and aliases as the rest of the team. In Windows this file is located in the `C:\Users\<username>` directory. The `.gitignore` file is typically stored in the root directory of your Git repository.
 
 ## Files to Ignore
 
@@ -19,18 +19,11 @@ The root directory of each repository should contain a `.gitignore` file that id
 
 ### Clients
 
-- Command line - The majority of the team uses command line exclusively. We tend to leverage the aliases in the **[`.gitconfig`](/source-control/.gitconfig)** fairly heavily..
-- [SourceTree](http://www.sourcetreeapp.com/)
+- Command line - The majority of the team uses command line exclusively. We tend to leverage the aliases in the **[`.gitconfig`](/source-control/.gitconfig)** fairly heavily. Some common third party cleints used are **[`iTerm2`}(https://iterm2.com/)** and **[`Powershell`](https://learn.microsoft.com/en-us/powershell/?view=powershell-7.3)**.
 - [Visual Studio Code](https://code.visualstudio.com)
   - [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
   - [Stylelint](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint)
   - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
-
-### Mergetools
-
-- [KDiff3](http://kdiff3.sourceforge.net/)
-- [P4Merge](http://www.perforce.com/product/components/perforce-visual-merge-and-diff-tools)
-- [Visual Studio Code](https://code.visualstudio.com)
 
 ## Workflow
 
@@ -51,7 +44,7 @@ $ git push origin 123-my-feature-branch-name-snake-case -f
 
 ## Commit Message Convention
 
-Our commit messaging differs depending on the client, but we typically follow a pattern similar to the [AngularJS Git Commit Message Conventions](https://docs.google.com/document/d/1OLFfQHdZXpd-oBNik3_rgFyPooZ3U4-KAGQrEpQVbXs/edit?usp=sharing) (with some modifications) to allow for better historical information and the generation of a `CHANGELOG.md` by script.
+Our commit messaging differs depending on the client, but we typically follow a pattern similar to the [ Semantic Commit Messages Conventions](https://gist.github.com/joshbuchea/6f47e86d2510bce28f8e7f42ae84c716) (with some modifications) to allow for better historical information and the generation of a `CHANGELOG.md` by script.
 
 ### Commit Message Format
 

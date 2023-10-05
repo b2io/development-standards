@@ -97,4 +97,5 @@ Additional linting rules can be found at <https://eslint.org/docs/rules/>
 - [ESLint Plugin](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 - [Prettier Plugin](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 - [Live Share](https://visualstudio.microsoft.com/services/live-share/)
-- [Sample Settings file](./settings-sample.json)
+- [Sample Settings file](./sample/settings-sample.json)
+
