@@ -5,8 +5,8 @@ C# can be written in either VS Code or Visual Studio.
 ### To Use VS Code
 
 - [Install Visual Studio Code](https://code.visualstudio.com/)
-  - [Install .Net Core SDK](https://dotnet.microsoft.com/download)
-  - [Install C# extension](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp)
+- [Install .Net Core SDK](https://dotnet.microsoft.com/download)
+- [Install C# extension](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp)
 
 Visual Studio can handle C# out of the box. Setup recommendations are [here](/ide/VisualStudio/README.md).
 
@@ -30,16 +30,16 @@ Coding conventions and standards to create consistent and readable code
 
 - When naming namespaces Pascal case should be used
 - Use client name as root of namespace, project as second level, technology or descriptor as third and/or fourth level.
-  ```
-  namespace ABC.SoftwareName.Data.Extensions
-  ```
+```c#
+namespace ABC.SoftwareName.Data.Extensions;
+```
 
 #### Classes
 
 - Use a noun or nounprharse in Pascal case
 - Derived classes should be compound noun containing the name of the base class.
 
-```
+```c#
 public class OperationsManager : Manager
 {
 }
@@ -51,7 +51,7 @@ public class OperationsManager : Manager
 - Field names should be a noun or phrase descriptive enough to describe its use.
 - Hungarian notation should be avoided. I.e. Prefix of `m_` or `_` should be replaced with more descriptive names.
 
-```
+```c#
 private Customer customer;
 private ICollection<Customer> Customers;
 private decimal productPrice;
@@ -71,7 +71,7 @@ private DateTime paymentDate;
 - Name properties with noun or phrase.
 - Hungarian notation should be avoided. I.e. Prefix of `m_` or `_` should be replaced with more descriptive names.
 
-```
+```c#
 public String UserName
 {
     get; set;
@@ -88,7 +88,7 @@ public Customer Customer
 - Methods should be named with a verb or phrase that describes the action being performed by the method.
 - Each method should perfom on action, making naming simple.
 
-```
+```c#
 public void PerformCalculations()
 {
 }
@@ -104,7 +104,7 @@ public Customer GetCustomer()
 - Name parameters with a descriptive noun or phrase that can be used to determine the meaning/use.
 - Avoid Hungarian notations
 
-```
+```c#
 public decimal GetSalesTax(decimal salePrice, decimal taxRate)
 {
 }

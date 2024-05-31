@@ -12,6 +12,10 @@
   br = branch --remote
   cane = commit --amend --no-edit
   ci = commit # Commit, which will open an editor for the commit message
+
+  # Delete every branch except the current branch, main, develop, master, root, and dev
+  cleanup = !git branch | grep -v $(git branch --show-current) | grep -v -E \"(main|develop|master|root|dev)\" | xargs git branch -D
+
   cm = commit -m # Commit with inline message
   cob = checkout -b # Create new branch and checkout
   cot = checkout -t # Create remote branch and track locally
@@ -31,7 +35,7 @@
   hist = log --graph --pretty=format:'%h %ad | %s%d [%an]' --date=short # Commit history with dates
   last = log -1 HEAD # Display log for last commit
   unstage = reset HEAD -- # Unstages changes
-  
+
  [user]
   email = <your email here>
   name = <your name here>

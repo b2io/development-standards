@@ -8,7 +8,7 @@ See the following **[`.gitconfig`](/source-control/.gitconfig)** as a starting p
 
 **[`.gitignore`](/source-control/.gitignore)** can be used to ignore common files such as IDE files. This global ignore file can be configured in the [`.gitconfig`](/source-control/.gitconfig) via
 
-```
+```ini
 [core]
 excludesfile = ~/.gitignore
 ```
@@ -19,11 +19,8 @@ The root directory of each repository should contain a `.gitignore` file that id
 
 ### Clients
 
-- Command line - The majority of the team uses command line exclusively. We tend to leverage the aliases in the **[`.gitconfig`](/source-control/.gitconfig)** fairly heavily. Some common third party cleints used are **[`iTerm2`}(https://iterm2.com/)** and **[`Powershell`](https://learn.microsoft.com/en-us/powershell/?view=powershell-7.3)**.
-- [Visual Studio Code](https://code.visualstudio.com)
-  - [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
-  - [Stylelint](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint)
-  - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+- Command line - The majority of the team uses command line through **[`iTerm2`}(https://iterm2.com/)** and **[`Powershell`](https://learn.microsoft.com/en-us/powershell/?view=powershell-7.3)**. We tend to leverage the aliases in the **[`.gitconfig`](/source-control/.gitconfig)** fairly heavily.
+- [Visual Studio Code](https://code.visualstudio.com) - [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens) extension
 
 ## Workflow
 
@@ -34,7 +31,7 @@ A new branch should be created for each issue/card. The feature branch should be
 3. Push the feature branch to the remote prior to leaving for the day or creating a pull request: `$ git push origin 123-my-feature-branch-name-snake-case -u` (-u to set the upstream)
 4. After PR approval use the "Squash and merge" button on Github, and then delete the remote branch. If you'd like to rebase/squash without the button you can do so via:
 
-```
+```sh
 $ git puff origin main
 $ git co 123-my-feature-branch-name-snake-case
 $ git puff origin 123-my-feature-branch-name-snake-case
