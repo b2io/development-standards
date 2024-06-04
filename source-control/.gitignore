@@ -9,7 +9,7 @@ npm-debug.log
 node_modules
 
 # JetBrains editor files.
-/**/.idea
+**/.idea
 
 # Visual Studio
 ## Editor files
@@ -51,6 +51,3 @@ bld/
 # SQL Server files
 *.mdf
 *.ldf
-
-# js files
-tsconfig.json

@@ -12,7 +12,7 @@ We alphabetize our declarations within a declaration block. This is useful for a
 2.  And harder to duplicate
 3.  Everything is always in the same order
 
-```
+```css
 .example {
   background: #000;
   border: 0;
@@ -29,7 +29,7 @@ We alphabetize our declarations within a declaration block. This is useful for a
 
 Each selector and declaration should be on its own line.
 
-```
+```css
 #too, .many, .selectors .on .the, .same.line { content: "incorrect!"; }
 
 #this,
@@ -45,7 +45,7 @@ Omit the leading 0 on fractions:`.7em` instead of `0.7em`
 
 Omit the unit for zero values:
 
-```
+```css
 .incorrect {
   padding: 0em 2em;
 }
@@ -57,7 +57,7 @@ Omit the unit for zero values:
 
 Use shorthand wherever possible:
 
-```
+```css
 .incorrect {
   border-color: blue blue transparent blue;
   margin: 0 auto 0;
@@ -76,7 +76,7 @@ Line heights should also be unit-less where possible, unless it is necessary to 
 
 There should always be a space after colons and commas and before the opening curly brace of a declaration block.
 
-```
+```css
 .spaces--incorrect{
   color:rgb(0,0,0);
 }
@@ -90,7 +90,7 @@ There should always be a space after colons and commas and before the opening cu
 
 Declarations should still be in alphabetical order in all .SCSS files. However, all `@extend` and `@include` declarations should be listed first.
 
-```
+```css
 .incorrect {
   border: 1px solid;
   @include border-radius(5px);
